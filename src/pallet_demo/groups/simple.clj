@@ -3,6 +3,7 @@
 (require 'pallet.core 'pallet.compute 'pallet.configure)
 
 ;; Fire up the nodes (this takes a while and doesn't put much output out - you can monitor it in the EC2 monitor)
+;; There are also log files in ./logs
 (pallet.core/converge
  (pallet.core/group-spec "pallet-demo"
                          :count 1
