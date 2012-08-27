@@ -23,3 +23,5 @@ Your aws key and secret key can be found in the aws console under "Security Cred
 https://portal.aws.amazon.com/gp/aws/securityCredentials
 
 I found that the first one of these I had didn't work, so I generated a new one and then it seemed to be fine.
+
+If you look in the file "simple.clj" in this project, you will find a set of calls that can be executed in the REPL to do some cool stuff
